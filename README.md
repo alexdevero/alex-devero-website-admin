@@ -1,3 +1,7 @@
+<!-- [![Build Status](https://circleci.com/gh/alexdevero/alex-devero-website-admin.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/alexdevero/alex-devero-website-admin/) -->
+[![Dependency Status](https://david-dm.org/alexdevero/alex-devero-website-admin.svg?style=flat)](https://david-dm.org/alexdevero/alex-devero-website-admin)
+[![devDependency Status](https://david-dm.org/alexdevero/alex-devero-website-admin/dev-status.svg?style=flat)](https://david-dm.org/alexdevero/alex-devero-website-admin?type=dev)
+
 # Alex Devero Website - Admin and CMS section
 Admin area and CMS for my website (experimental project).
 
