@@ -1,7 +1,11 @@
 {
-  "name": "react-redux-starter-kit",
-  "version": "3.0.1",
-  "description": "Get started with React, Redux, and React-Router!",
+  "name": "alex-devero-website-admin",
+  "version": "1.0.0",
+  "description": "Admin area for my website.",
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -15,9 +19,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davezuko/react-redux-starter-kit.git"
+    "url": "https://github.com/alexdevero/alex-devero-website-admin.git"
   },
-  "author": "David Zukowski <david@zuko.me> (http://zuko.me)",
+  "bugs": {
+    "url": "https://github.com/alexdevero/alex-devero-website-admin/issues"
+  },
+  "author": {
+    "name": "Alex Devero",
+    "url": "https://github.com/alexdevero"
+  },
+  "email": "deveroalex@gmail.com",
+  "url": "http://alexdevero.com/",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha",
