@@ -13,10 +13,10 @@ const karmaConfig = {
     ],
   },
   files: [{
-    pattern  : TEST_BUNDLER,
-    watched  : false,
-    served   : true,
-    included : true
+    pattern: TEST_BUNDLER,
+    watched: false,
+    served: true,
+    included: true
   }],
   frameworks: ['mocha'],
   reporters: ['mocha'],

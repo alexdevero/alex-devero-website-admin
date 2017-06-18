@@ -140,7 +140,7 @@ Some of the assertions available from [chai](chaijs.com) use [magical getters](h
 ```js
 // This silently passes because the getter on `true` is never invoked!
 it('should be true', () => {
-  expect(false).to.be.tru // evaluates to undefined :(
+  expect(false).to.be.tru // evaluates to undefined:(
 })
 
 // Much better! Our assertion is invalid, so it throws rather than implicitly passing.

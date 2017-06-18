@@ -37,4 +37,4 @@ const changedTests = allTests.filter(path => {
   return __karmaWebpackManifest__.indexOf(path) !== -1
 })
 
-;(changedTests.length ? changedTests : allTests).forEach(testsContext)
+;(changedTests.length ? changedTests: allTests).forEach(testsContext)

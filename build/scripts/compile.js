@@ -15,9 +15,11 @@ const runWebpackCompiler = (webpackConfig) =>
       }
 
       const jsonStats = stats.toJson()
+
       if (jsonStats.errors.length > 0) {
         logger.error('Webpack compiler encountered errors.')
         logger.log(jsonStats.errors.join('\n'))
+
         return reject(new Error('Webpack compiler encountered errors'))
       } else if (jsonStats.warnings.length > 0) {
         logger.warn('Webpack compiler encountered warnings.')

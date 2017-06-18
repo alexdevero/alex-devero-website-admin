@@ -20,10 +20,10 @@ const config = {
       inProjectSrc(project.main),
     ],
   },
-  devtool: project.sourcemaps ? 'source-map' : false,
+  devtool: project.sourcemaps ? 'source-map': false,
   output: {
     path: inProject(project.outDir),
-    filename: __DEV__ ? '[name].js' : '[name].[chunkhash].js',
+    filename: __DEV__ ? '[name].js': '[name].[chunkhash].js',
     publicPath: project.publicPath,
   },
   resolve: {
@@ -77,11 +77,11 @@ config.module.rules.push({
       presets: [
         'babel-preset-react',
         ['babel-preset-env', {
+          modules: false,
           targets: {
             ie9: true,
-            uglify: true,
-            modules: false,
           },
+          uglify: true,
         }],
       ]
     },
@@ -109,10 +109,10 @@ config.module.rules.push({
             autoprefixer: {
               add: true,
               remove: true,
-              browsers: ['last 2 versions'],
+              browsers: ['last 4 versions'],
             },
             discardComments: {
-              removeAll : true,
+              removeAll: true,
             },
             discardUnused: false,
             mergeIdents: false,
@@ -139,10 +139,10 @@ config.plugins.push(extractStyles)
 // Images
 // ------------------------------------
 config.module.rules.push({
-  test    : /\.(png|jpg|gif)$/,
-  loader  : 'url-loader',
-  options : {
-    limit : 8192,
+  test: /\.(png|jpg|gif)$/,
+  loader: 'url-loader',
+  options: {
+    limit: 8192,
   },
 })
 
@@ -160,11 +160,11 @@ config.module.rules.push({
   const mimetype = font[1]
 
   config.module.rules.push({
-    test    : new RegExp(`\\.${extension}$`),
-    loader  : 'url-loader',
-    options : {
-      name  : 'fonts/[name].[ext]',
-      limit : 10000,
+    test: new RegExp(`\\.${extension}$`),
+    loader: 'url-loader',
+    options: {
+      name: 'fonts/[name].[ext]',
+      limit: 10000,
       mimetype,
     },
   })
