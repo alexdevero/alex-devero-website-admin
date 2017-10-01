@@ -32,7 +32,7 @@
   "url": "http://alexdevero.com/",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "^4.0.0-beta",
     "compression": "^1.7.1",
     "express": "^4.16.1",
     "object-assign": "^4.1.1",
@@ -91,7 +91,7 @@
     "mocha": "^3.5.3",
     "node-sass": "^4.5.3",
     "normalize.css": "^7.0.0",
-    "phantomjs-prebuilt": "^2.1.14",
+    "phantomjs-prebuilt": "^2.1.15",
     "react-addons-test-utils": "^15.6.2",
     "react-test-renderer": "^16.0.0",
     "rimraf": "^2.6.2",
