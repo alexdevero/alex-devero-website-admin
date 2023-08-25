@@ -32,7 +32,7 @@
   "url": "http://alexdevero.com/",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
+    "bootstrap": "^4.0.0-beta.2",
     "compression": "^1.7.1",
     "express": "^4.16.1",
     "object-assign": "^4.1.1",
