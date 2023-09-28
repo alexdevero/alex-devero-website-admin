@@ -34,7 +34,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "compression": "^1.7.1",
-    "express": "^4.16.1",
+    "express": "^4.17.3",
     "object-assign": "^4.1.1",
     "promise": "^8.0.1",
     "prop-types": "^15.6.0",
